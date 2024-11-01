@@ -8,3 +8,7 @@ body {
     margin: 0;
     background: #424f6f;
 }
+
+#container {
+    width: 400px
+}
