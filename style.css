@@ -10,5 +10,13 @@ body {
 }
 
 #container {
-    width: 400px
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    box-sizing: border-box;
+    background: #424f6f
+}
+
+*:after, *:before {
+    box-sizing: inherit;
 }
