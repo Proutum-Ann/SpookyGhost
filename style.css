@@ -77,3 +77,22 @@ body {
     background: #252c49;
     border-radius: 50%;
 }
+
+/* Mouth */
+#spooky #body #mouth {
+    background: #252c49;
+    margin: 25px auto 0;
+    width: 60px;
+    height: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#spooky #body #mouth:before {
+    content: '';
+    display: block;
+    background: #fff;
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+}
