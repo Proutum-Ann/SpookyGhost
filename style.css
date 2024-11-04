@@ -86,6 +86,7 @@ body {
     height: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    transition: 0.5s
 }
 
 #spooky #body #mouth:before {
@@ -142,5 +143,36 @@ body {
 
     50% {
         transform: scale(0.8);
+    }
+}
+
+/* Custom CSS */
+#spooky #body {
+    transition: 2s;
+}
+
+#spooky #body:hover {
+    opacity: 30%;
+    animation: fade 2s;
+}
+
+#spooky #body #mouth:hover {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+@keyframes fade {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(1);
     }
 }
