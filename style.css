@@ -6,7 +6,10 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background: #424f6f;
+    background-image: url(imgs/hhouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 #container {
@@ -14,7 +17,6 @@ body {
     height: 400px;
     padding: 0;
     box-sizing: border-box;
-    background: #424f6f
 }
 
 *:after, *:before {
@@ -123,6 +125,7 @@ body {
     height: 40px;
     border-radius: 50%;
     animation: zoomy 2s infinite;
+    mix-blend-mode: multiply;
 }
 
 /* Animations */
