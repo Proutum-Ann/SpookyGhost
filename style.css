@@ -50,7 +50,7 @@ body {
     height: 36px;
     border-radius: 50%;
     background: #f2fbf1;
-    animation: floaty .2s infinite;
+    animation: floaty 2s infinite;
 }
 
 #spooky #body:before {
