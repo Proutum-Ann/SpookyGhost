@@ -151,6 +151,10 @@ body {
 }
 
 /* Custom CSS */
+#spooky {
+    mix-blend-mode: overlay;
+}
+
 #spooky #body {
     transition: 2s;
 }
