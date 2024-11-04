@@ -163,6 +163,14 @@ body {
     border-top-right-radius: 30px;
 }
 
+#spooky #body #eyes {
+    transition: 2s;
+}
+
+#spooky #body #eyes:hover {
+    height: 5%;
+}
+
 @keyframes fade {
     0% {
         transform: scale(1);
